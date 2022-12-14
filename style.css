@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#fff;
+    font-size: 20px;
+    line-height: 1.5em;
+    margin: 0;
+}
+
+.container{
+width: 80%;
+margin: auto;
+overflow: hidden;
+}
+
+.clearFix {
+    clear:both;
+}
+
+#mainHeader{
+    background: rgb(39, 39, 39);
+    color: rgb(156, 21, 197); 
+    position: sticky;
+    top: 0;
+    
+ 
+}
+.container h1{
+    font-size: 20px;
+    text-align: center;
+}
+
+#mainNav{
+    background:rgb(105, 105, 105);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 50px;
+}
+
+#mainNav ul{
+    padding: 5px;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+#mainNav li{
+    display: inline;
+    padding: 5px 10px;
+}
+
+#mainNav a{
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+#mainNav a:hover{
+    color:rgb(253, 11, 11);
+    transition: 0.5s;
+}
+
+    #Home{
+    background-image: url(res/Marshmello-Wallpaper-1920x1080-1.jpeg);
+    background-position: center center;
+    min-height: 500px;
+    color:azure;
+    text-align: center;
+    }
+
+    #Home h1{
+        font-size: 50px;
+        padding: 100px 0px;
+        line-height: 1.5em;
+        
+    }
+
+#main{
+    float: right;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing:border-box;
+}
+
+#sidebar{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    border-right: 2px solid black;
+    box-sizing: border-box;
+    letter-spacing: .2em;
+    word-spacing: 0.5em;
+}
+
+#mainFooter {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-top: 50px;
+
+}
+
+#pExample {
+    width: 400px;
+    height: 400px;
+    border: 1px solid #333;
+    border-radius: 10px 20px    ;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+#pExample span:first-child {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#pExample span:last-child {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+#fixed {
+    position: fixed;
+    bottom: 0;
+    color:aqua;
+    background: rgb(195, 12, 219);
+    padding: 5px;
+    left: 300px;
+}
+
+@media (max-width: 600px){
+    #main, #sidebar {
+        width: 100%;
+        float: none;
+        border: none;
+    }
+}
+
+/*
+p {
+    border: 4px solid rgb(11, 145, 197);
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left:20px;
+    padding: 20px 30px;
+    margin-top: 50px;
+}
+*/
